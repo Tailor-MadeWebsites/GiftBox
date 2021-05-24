@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width", initial-scale=1">
+	<title>Gift Box 3</title>
+  <!-- Meta Description -->
+  <meta name="description" content="......">
+  <meta name=”robots” content=”noindex, nofollow”>
+  <meta name=”robots” content=”index, follow”> 
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="TITLE OF YOUR POST OR PAGE" />
+  <meta property="og:description" content="DESCRIPTION OF PAGE CONTENT" />
+  <meta property="og:image" content="LINK TO THE IMAGE FILE" />
+  <meta property="og:url" content="PERMALINK" />
+  <meta property="og:site_name" content="SITE NAME" />
+
+  <!-- Meta Description End -->
+	<link rel="stylesheet" type="text/css" href="css/style5.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="canonical" href="http://........." />
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+
+   <!-------------------------Navigation Bar Start------------------------->
+
+   <section id="nav-bar">
+  <nav class="navbar navbar-expand-lg navbar-light">
+   <a class="navbar-brand" href="index5.html"><img src="img/gblogo1.png"></a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNav">    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="index5.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+
+
+<!------------Navigation Bar End------------->
+
+<!-----------------Loan Table Start ---------------->
+
+<div class="container">
+  <div class="calculator col-md-">
+    <h6 class="calcTitle">Corporate Secured Loan Calculator</h6>
+    <div class="resultModule col-sm-">
+      <div class="totalPayment">
+        <h5 class="monthlyPayment" id="monthlyRepayment">-</h5>
+        <p>Est. Monthly Payment</p>
+      </div>
+      <table class="calcResults table">
+
+
+
+
+
+       <select onchange="la(this.value)"> 
+       <option disabled selected>Type of Loan...</option>               
+          <option class="text-right" value="index5.html">Personal Secured</option>
+          <option class="text-right" value="personalun.html">Personal Unsecured</option>
+          <option class="text-right" value="corperates.html">Corperate Secured</option>
+          <option class="text-right" value="corperateun.html">Corperate Unsecured</option> 
+        </select>
+
+        <tr>
+          <td>Interest Rate</td>
+          <td class="text-right loanRateOut" id="repApr">-</td>
+        </tr>
+        <tr>
+          <td>Total Repayment</td>
+          <td class="text-right" id="totalRepayment">-</td>
+        </tr>
+        <tr>
+          <td>Total Interest Paid</td>
+          <td class="text-right" id="totalInterest">-</td>
+        </tr>        
+      </table>
+    </div>
+
+<!---------------Loan Table End------------------->
+
+
+<!------------------Loan Slider------------------>
+<div class="widget col-sm-">
+      <table class="table loanModule">
+        <tr>
+           <td class="text-right align-bottom"></td>
+        </tr>
+    <div class="grid">
+    <div class="slider-container-one">
+   <label for="amountSlider">Loan Amount</label>
+<span class="bar"><span class="fill" style="width: 50%;"></span></span>
+<input id="amountSlider" class="slider" type="range" min="1000" max="25000" step="100" value="1000">
+</div>
+</div>
+
+
+
+<div class="grid">
+<div class="slider-container-two">
+<label for="termSlider">Loan Term (Months)</label>
+<span class="bar"><span class="fill" style="width: 20%;"></span></span>
+<input id="termSlider" class="slider" type="range" min="12" max="120" step="12"value="12"> 
+</div>
+</div> 
+<br>
+<br>
+
+
+<!---------------------Loan Slider End---------------------------->
+
+
+<!--------------------Loan & Amoount Box-------------->
+<div class="grid">
+<div class="total-payment">
+
+<div class="row">
+<div class="col-md-12">
+  <div class="white">
+<span>Total Loan Amount:</span>
+<input id="amountField" type="number" min="1000" max="25000" step="100" value="1000">
+</div>
+<br>
+
+<div class="row">
+<div class="col-md-12">
+  <div class="white">
+<span>Loan Term    :</span>
+<input id="termField" type="number" min="12" max="120" step= "12" value="12">
+</div>
+</div>
+</div>
+
+
+<!-------------Loan & Amount Box End --------------->
+
+<!------------ Submit Button----------->
+<tr>
+  <td colspan="2">
+     <button class="btn loanCalcSubmit" href="#">Submit</button>
+ </td>
+</tr>
+
+<!-------------Submit Button End------------>
+
+</table>
+</div>
+</div>
+</div>
+<script src="js/main7.js"></script>
+</body>
+</html>
