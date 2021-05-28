@@ -432,26 +432,6 @@ label {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-
-@media (max-width: 1200px){
-
-  .container, .container-lg, .container-md, .container-sm{
-    max-width: 627px!important;
-  }
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
 @media (max-width: 992px){  
 
 .resultModule{
@@ -518,11 +498,6 @@ label {
    border-radius: 3.25rem;
    font-size: 1rem!important;
     
-}
-
-.widget .grid{
-
-  max-width: 430px;
 }
 
 }
