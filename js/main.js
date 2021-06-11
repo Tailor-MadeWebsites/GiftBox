@@ -77,3 +77,4 @@ return Math.round(num * 100) / 100;
 function la (src){
 	window.location=src;
 }
+
