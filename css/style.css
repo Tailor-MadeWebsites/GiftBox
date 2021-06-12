@@ -112,6 +112,7 @@ border: none!important;
     font-size: 1.5rem;
     text-align: -webkit-center !important;
     padding: 1rem;
+    letter-spacing: 1px!important;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -124,6 +125,7 @@ border: none!important;
 color: ;
 display: inline-grid;
 margin-top: 0;
+width: 80%;
 }
 
 .amountField{
@@ -365,19 +367,34 @@ a {
     justify-items: var(--justify-content,center);
 } 
 
-@media (max-width: 320px){
+@media (max-width: 360px){
 .container, .container-sm {
     max-width: 320px !important;
   }
     .widget table{
-    color: #fff;
     margin-bottom: -4rem;
     margin-left: -80px!important;
   }
 
-  .btn{
-    margin-left: 0!important;
-  }
+  .widget .grid {
+    max-width: 500px;
+    margin: 5px;
+    width: 100%!important;
+    margin-left: -40px!important;
+}
+
+.white{
+  margin-left: -30px!important;
+}
+
+}
+
+.row{
+  margin-left: -18px;
+}
+
+.btn{
+  margin-left: 0!important;
 }
 
 }
@@ -386,6 +403,12 @@ a {
   .container, .container-sm {
     max-width: 320px !important;
   }
+
+.white{
+  margin-left: -40px!important;
+width: 100%!important;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -395,8 +418,11 @@ a {
 
    .widget table{
     margin-bottom: -4rem;
-    margin-left: -80px!important;
-  }
+    }
+
+    h4 .h4{
+      letter-spacing: 1px!important;
+    }
 }
 
 @media (max-width: 992px) {
