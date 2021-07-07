@@ -372,6 +372,22 @@ a {
     justify-items: var(--justify-content,center);
 } 
 
+
+@media (max-width: 400px) {
+  
+.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+      left: 47%!important;
+  margin-left:-120px; 
+  }
+
+  .btn{
+  margin-left: 10px!important;
+}
+
+  }
+
+
+
 @media (max-width: 360px){
 .container, .container-sm {
     max-width: 320px !important;
@@ -482,4 +498,5 @@ width: 100%!important;
 
  
 }
+
 
