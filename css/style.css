@@ -372,7 +372,7 @@ a {
     justify-items: var(--justify-content,center);
 } 
 
-@media (max-width: 360px){
+@media (max-width: 361px){
 .container, .container-sm {
     max-width: 320px !important;
   }
@@ -421,7 +421,7 @@ width: 100%!important;
 }
 
 .btn{
-  margin-left: 2rem!important;
+  margin-left: 1rem!important;
 }
 
 .elementor-social-icon:last-child {
@@ -463,6 +463,8 @@ width: 100%!important;
     max-width: 1140px !important;
   }
 
-
+ .btn{
+  margin-left: 10px!important;
+}
 }
 
