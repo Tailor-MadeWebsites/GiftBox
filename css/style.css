@@ -338,7 +338,7 @@ a {
 .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
         height: 70px;
     position: absolute;
-    left:52%;
+    left:39%;
     top: 20px;
     content: "";
     
@@ -441,6 +441,7 @@ width: 100%!important;
     }
 
     .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+      left: 47%;
   margin-left:-120px; 
   }
 
