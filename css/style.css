@@ -68,6 +68,9 @@ border: none!important;
   margin-top: -5px;
   font-family: 'DM Sans', sans-serif;
 }
+.calc p{
+  color: red;
+}
 
 .container {
     width: 60%;
@@ -204,15 +207,13 @@ table.calcResults tr td {
 p{
   font-size: -27px !important;
   text-align: -webkit-center;
-  font-weight: 600;
+  font-weight: lighter!important;
   font-size: 1.1rem;
   color: #E9E9E9;
-  margin-top: -39px !important;
-  font-family: 'DM Sans', sans-serif;
+  margin-top: -39px !important;  
   margin-bottom: 4rem !important;
 }
-  
-}
+
 
 .table {
     width: 40% !important;
@@ -248,6 +249,8 @@ p{
 
 .price-form p{
   font-size: 1rem;
+  color: #818a91;
+  font-family: 'DM Sans', sans-serif;
 }
 
 /*-----Submit Button----*/
@@ -270,10 +273,12 @@ p{
     line-height: 1.5;
     border-radius: 3.25rem!important;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    margin-left: 3rem !important;
+    margin-left: 100px!important;
     margin-top: 20px;
     font-family: 'DM Sans', sans-serif!important;
 }
+
+
 
 button, input, optgroup, select, textarea {
     margin: 0;
@@ -294,7 +299,7 @@ button, input, optgroup, select, textarea {
     padding-bottom: 1rem;
     margin-bottom: 0rem;
     margin-top: -7rem;
-    height: 70px;
+    height: 60px;
     width: 94px;
 }
 
@@ -336,7 +341,7 @@ a {
     left:46%;
     top: 20px;
     content: "";
-    margin-left: -85px;
+    margin-left: -100px;
 }
 }
 
@@ -393,19 +398,17 @@ a {
   margin-left: -18px;
 }
 
-.btn{
-  margin-left: 0!important;
-}
 
 .elementor-widget-image .elementor-image img {
     margin-left: 8px!important;
 
 }
 
-.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
-  
-    margin-left: -126px;
+.btn{
+  margin-left: 7rem!important;
 }
+
+
 
 @media (max-width: 576px) {
   .container, .container-sm {
@@ -415,6 +418,10 @@ a {
 .white{
   margin-left: -40px!important;
 width: 100%!important;
+}
+
+.btn{
+  margin-left: 1rem;
 }
 
 }
@@ -431,6 +438,12 @@ width: 100%!important;
     h4 .h4{
       letter-spacing: 1px!important;
     }
+
+    .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+  margin-left:-129px; 
+  }
+
+
 }
 
 @media (max-width: 992px) {
@@ -443,5 +456,10 @@ width: 100%!important;
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px !important;
   }
+
+  .btn{
+  margin-left: 10px!important;
+}
+
 }
 
