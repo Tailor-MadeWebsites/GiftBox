@@ -446,7 +446,9 @@ width: 100%!important;
     .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
   margin-left:-100px; 
   }
-
+ .btn{
+  margin-left: 50px!important;
+}
 
 }
 
@@ -454,6 +456,10 @@ width: 100%!important;
   .container, .container-sm, .container-md, .container-lg {
     max-width: 820px !important;
   }
+
+   .btn{
+  margin-left: 10px!important;
+}
 }
 
 @media (max-width: 1200px) {
@@ -461,9 +467,6 @@ width: 100%!important;
     max-width: 1140px !important;
   }
 
-  .btn{
-  margin-left: 10px!important;
-}
 
 }
 
