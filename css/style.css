@@ -338,10 +338,10 @@ a {
 .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
         height: 70px;
     position: absolute;
-    left:45%;
+    left:52%;
     top: 20px;
     content: "";
-    margin-left: -100px;
+    
 }
 }
 
