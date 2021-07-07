@@ -424,6 +424,10 @@ width: 100%!important;
   margin-left: 1rem;
 }
 
+.elementor-social-icon:last-child {
+    margin: 5px!important;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -440,7 +444,7 @@ width: 100%!important;
     }
 
     .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
-  margin-left:-129px; 
+  margin-left:-100px; 
   }
 
 
