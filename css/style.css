@@ -425,6 +425,11 @@ width: 100%!important;
   margin-left: 10px!important;
 }
 
+.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+      left: 47%;
+  margin-left:-120px; 
+  }
+
 }
 
 @media (max-width: 768px) {
