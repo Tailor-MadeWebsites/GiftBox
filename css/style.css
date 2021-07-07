@@ -405,7 +405,7 @@ a {
 }
 
 .btn{
-  margin-left: 7rem!important;
+  margin-left: 0em!important;
 }
 
 
@@ -446,6 +446,10 @@ width: 100%!important;
     .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
   margin-left:-100px; 
   }
+
+   .btn{
+  margin-left: 50px!important;
+}
  
 
 }
@@ -463,8 +467,6 @@ width: 100%!important;
     max-width: 1140px !important;
   }
 
- .btn{
-  margin-left: -30px!important;
-}
+ 
 }
 
