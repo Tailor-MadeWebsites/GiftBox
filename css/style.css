@@ -424,52 +424,7 @@ a {
 
 }
 
-@media (max-width: 400px){
 
-.container, .container-sm {
-    max-width: 320px !important;
-  }
-    .widget table{
-    margin-bottom: -4rem;
-    margin-left: -80px!important;
-  }
-
-  .widget .grid {
-    max-width: 500px;
-    margin: 5px;
-    width: 100%!important;
-    margin-left: -40px!important;
-}
-
-.white{
-  margin-left: -30px!important;
-}
-
-}
-
-.row{
-  margin-left: -18px;
-}
-
-
-.elementor-widget-image .elementor-image img {
-    margin-left: 8px!important;
-
-}
-
-.btn{
-  margin-left: 10px;
-}
-
-.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
-      left: 39%;
-  margin-left:-4px; 
-  }
-
-
-
-
-}
 @media (max-width: 576px) {
   .container, .container-sm {
     max-width: 320px !important;
@@ -508,7 +463,7 @@ width: 100%!important;
 
     .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
       
-  margin-left:-45px; 
+  margin-left:-85px; 
   }
 
 
@@ -521,11 +476,7 @@ width: 100%!important;
 
   }
 
-  .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
-      left: 30%;
-   
-  }
-
+  
 .btn{
   margin-left: 10px!important;
 }
