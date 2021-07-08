@@ -359,7 +359,7 @@ a {
 }
 
 .elementor-widget-wrap>.elementor-element {
-    width: 97% !important;
+    width: 100% !important;
 }
 
 .elementor-widget-social-icons .elementor-grid {
@@ -375,7 +375,7 @@ a {
 .elementor-section > .elementor-column-gap-default > .elementor-row {
     width: calc(100% + 20px);
     margin-left: -10px;
-    margin-right: 5px!important;
+    margin-right: 1px!important;
 }
 
 
@@ -463,7 +463,7 @@ width: 100%!important;
 
     .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
       
-  margin-left:-95px; 
+  margin-left:-70px; 
   }
 
 .elementor-widget-image .elementor-image img {
