@@ -372,7 +372,11 @@ a {
     justify-items: var(--justify-content,center);
 } 
 
-
+.elementor-section > .elementor-column-gap-default > .elementor-row {
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-right: 5px!important;
+}
 
 
 
@@ -472,9 +476,7 @@ width: 100%!important;
       left: 48%;
   margin-left:-120px; 
   }
-.btn{
-  margin-left: 40px!important;
-}
+
 
 
  
