@@ -363,7 +363,7 @@ a {
 }
 
 .elementor-widget-social-icons .elementor-grid {
-    grid-column-gap: var(--grid-column-gap,25px) !important;
+    grid-column-gap: var(--grid-column-gap,35px) !important;
     grid-row-gap: var(--grid-row-gap,5px);
     grid-template-columns: var(--grid-template-columns);
     -webkit-box-pack: var(--justify-content,center);
