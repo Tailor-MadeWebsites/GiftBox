@@ -419,7 +419,7 @@ a {
 
 .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
       left: 39%;
-  margin-left:-4px; 
+  margin-left:-41px; 
   }
 
 }
@@ -466,7 +466,10 @@ width: 100%!important;
   margin-left:-85px; 
   }
 
+.elementor-widget-image .elementor-image img {
+    margin-left: 60px!important;
 
+}
 
 }
 
