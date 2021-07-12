@@ -338,7 +338,7 @@ a {
 .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
         height: 70px;
     position: absolute;
-    left:39%;
+    left:44%;
     top: 20px;
     content: "";
     
@@ -360,6 +360,7 @@ a {
 
 .elementor-widget-wrap>.elementor-element {
     width: 96% !important;
+    position: sticky!important;
 }
 
 .elementor-widget-social-icons .elementor-grid {
@@ -377,7 +378,9 @@ a {
     margin-left: -10px;
     margin-right: 1px!important;
 }
-
+.elementor-widget-image .elementor-image img {
+    margin-left: 8px!important;
+}
 
 
 
@@ -409,7 +412,7 @@ a {
 
 
 .elementor-widget-image .elementor-image img {
-    margin-left: 8px!important;
+    margin-left: 45px!important;
 
 }
 
@@ -418,8 +421,14 @@ a {
 }
 
 .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
-      left: 39%;
+    
   margin-left:-41px; 
+  }
+
+  .calcTitle{
+
+    font-size: 30px;
+    margin-top: 5px;
   }
 
 }
@@ -463,11 +472,11 @@ width: 100%!important;
 
     .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
       
-  margin-left:-77px; 
+  margin-left:-100px; 
   }
 
 .elementor-widget-image .elementor-image img {
-    margin-left: -25px!important;
+    margin-left: 20px!important;
 
 }
 
